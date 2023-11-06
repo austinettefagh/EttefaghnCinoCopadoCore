@@ -30,4 +30,11 @@
         <label><!-- Permission Set --></label>
         <name>LLC_BI__Permission_Set__c</name>
     </fields>
+    <layouts>
+        <layout>Institution Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

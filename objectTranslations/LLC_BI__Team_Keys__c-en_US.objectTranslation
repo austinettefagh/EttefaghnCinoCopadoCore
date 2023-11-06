@@ -52,4 +52,11 @@
         <label><!-- lookupKey --></label>
         <name>LLC_BI__lookupKey__c</name>
     </fields>
+    <layouts>
+        <layout>Team Key Layout</layout>
+        <sections>
+            <label><!-- Role Selection --></label>
+            <section>Role Selection</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

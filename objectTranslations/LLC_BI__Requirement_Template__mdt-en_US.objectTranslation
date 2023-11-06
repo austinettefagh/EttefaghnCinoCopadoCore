@@ -52,4 +52,11 @@
         <label><!-- Title --></label>
         <name>LLC_BI__Title__c</name>
     </fields>
+    <layouts>
+        <layout>Requirement Template Layout</layout>
+        <sections>
+            <label><!-- Requirement Definition --></label>
+            <section>Requirement Definition</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

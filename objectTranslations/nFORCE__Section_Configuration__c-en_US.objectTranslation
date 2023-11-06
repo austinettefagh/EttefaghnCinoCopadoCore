@@ -65,6 +65,13 @@
         <label><!-- sObject Type --></label>
         <name>nFORCE__sObject_Type__c</name>
     </fields>
+    <layouts>
+        <layout>Section Configuration Layout</layout>
+        <sections>
+            <label><!-- Additional Config --></label>
+            <section>Additional Config</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- Child configurations must follow their parents in display order. --></errorMessage>
         <name>nFORCE__Child_Display_Order</name>

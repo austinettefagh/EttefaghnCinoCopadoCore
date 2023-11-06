@@ -104,4 +104,22 @@
         <label><!-- OA Credit Pull Required --></label>
         <name>nPortal__OA_Credit_Pull_Required__c</name>
     </fields>
+    <layouts>
+        <layout>Portal Route Group Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Route Group Layout</layout>
+        <sections>
+            <label><!-- Portal --></label>
+            <section>Portal</section>
+        </sections>
+        <sections>
+            <label><!-- Visibility --></label>
+            <section>Visibility</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

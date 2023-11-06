@@ -146,6 +146,20 @@
         <label><!-- Picklist Buttons Enabled --></label>
         <name>nPortal__Picklist_Buttons_Enabled__c</name>
     </fields>
+    <layouts>
+        <layout>Field Configuration Layout</layout>
+        <sections>
+            <label><!-- Portal Config --></label>
+            <section>Portal Config</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Portal Field Configuration Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- A field cannot be both Editable and Read-Only. --></errorMessage>
         <name>nFORCE__Editable_or_Read_Only</name>

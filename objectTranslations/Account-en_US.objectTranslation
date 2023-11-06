@@ -2828,6 +2828,24 @@
             <translation><!-- Silver --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Account (Business)</layout>
+        <sections>
+            <label><!-- Relationship Details --></label>
+            <section>Relationship Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account (Lender)</layout>
+        <sections>
+            <label><!-- Relationship Details --></label>
+            <section>Relationship Details</section>
+        </sections>
+        <sections>
+            <label><!-- nCino --></label>
+            <section>nCino</section>
+        </sections>
+    </layouts>
     <recordTypes>
         <description><!-- Select &quot;Business&quot; to add a Corporation, Partnership, or other business relationship type. --></description>
         <label><!-- Business --></label>

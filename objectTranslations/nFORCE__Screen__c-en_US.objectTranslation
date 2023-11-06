@@ -36,4 +36,11 @@
         <label><!-- OA Review Multiple Record Entry Label --></label>
         <name>nPortal__OA_Review_Multiple_Record_Entry_Label__c</name>
     </fields>
+    <layouts>
+        <layout>Screen Layout</layout>
+        <sections>
+            <label><!-- Display Options --></label>
+            <section>Display Options</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

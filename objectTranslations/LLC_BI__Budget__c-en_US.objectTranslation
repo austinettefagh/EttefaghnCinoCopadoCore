@@ -101,4 +101,11 @@
         <label><!-- lookupKey --></label>
         <name>LLC_BI__lookupKey__c</name>
     </fields>
+    <layouts>
+        <layout>Budget Layout</layout>
+        <sections>
+            <label><!-- Admin Details --></label>
+            <section>Admin Details</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

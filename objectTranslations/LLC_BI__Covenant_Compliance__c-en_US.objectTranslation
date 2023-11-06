@@ -62,5 +62,12 @@
             <translation><!-- Waived --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Covenant Compliance Layout</layout>
+        <sections>
+            <label><!-- Covenant Review Notes --></label>
+            <section>Covenant Review Notes</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

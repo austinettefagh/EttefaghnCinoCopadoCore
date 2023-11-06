@@ -334,4 +334,15 @@
         <label><!-- lookupKey --></label>
         <name>LLC_BI__lookupKey__c</name>
     </fields>
+    <layouts>
+        <layout>Pricing Rate Component Layout</layout>
+        <sections>
+            <label><!-- Fixed Details --></label>
+            <section>Fixed Details</section>
+        </sections>
+        <sections>
+            <label><!-- Floating Details --></label>
+            <section>Floating Details</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

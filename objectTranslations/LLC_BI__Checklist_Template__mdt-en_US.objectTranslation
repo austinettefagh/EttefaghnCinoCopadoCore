@@ -21,4 +21,11 @@
         <label><!-- Title --></label>
         <name>LLC_BI__Title__c</name>
     </fields>
+    <layouts>
+        <layout>Checklist Template Layout</layout>
+        <sections>
+            <label><!-- Checklist Definition --></label>
+            <section>Checklist Definition</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

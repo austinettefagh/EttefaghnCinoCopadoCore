@@ -493,6 +493,17 @@
             <translation><!-- Incomplete Application --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Adverse Action Layout</layout>
+        <sections>
+            <label><!-- Reason for Withdrawal --></label>
+            <section>Reason for Withdrawal</section>
+        </sections>
+        <sections>
+            <label><!-- Reasons for Declination --></label>
+            <section>Reasons for Declination</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Adverse Action Auto Number</nameFieldLabel>
     <startsWith>Consonant</startsWith>
     <validationRules>

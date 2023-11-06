@@ -84,6 +84,66 @@
             <translation><!-- In Progress --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Account In Progress</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Loans --></label>
+            <section>Loans</section>
+        </sections>
+        <sections>
+            <label><!-- Relationship In Review --></label>
+            <section>Relationship In Review</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account Review Complete</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Loans --></label>
+            <section>Loans</section>
+        </sections>
+        <sections>
+            <label><!-- Relationship In Review --></label>
+            <section>Relationship In Review</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Package Complete</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Loans --></label>
+            <section>Loans</section>
+        </sections>
+        <sections>
+            <label><!-- Product Package --></label>
+            <section>Product Package</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Package In Progress</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Loans --></label>
+            <section>Loans</section>
+        </sections>
+        <sections>
+            <label><!-- Product Package --></label>
+            <section>Product Package</section>
+        </sections>
+    </layouts>
     <recordTypes>
         <description><!-- Account Review Complete --></description>
         <label><!-- Account Review Complete --></label>

@@ -202,6 +202,51 @@
         <name>Loan_Officer__c</name>
         <relationshipLabel><!-- Memos --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>Change Memo Layout</layout>
+        <sections>
+            <label><!-- Change Memo Details --></label>
+            <section>Change Memo Details</section>
+        </sections>
+        <sections>
+            <label><!-- Does Not Require Approval --></label>
+            <section>Does Not Require Approval</section>
+        </sections>
+        <sections>
+            <label><!-- Monitored Fields --></label>
+            <section>Monitored Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Requires Approval --></label>
+            <section>Requires Approval</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Monitored Fields Change Memo Layout</layout>
+        <sections>
+            <label><!-- Does Not Require Approval --></label>
+            <section>Does Not Require Approval</section>
+        </sections>
+        <sections>
+            <label><!-- Modification Discription --></label>
+            <section>Modification Discription</section>
+        </sections>
+        <sections>
+            <label><!-- Monitored Fields --></label>
+            <section>Monitored Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Requires Approval --></label>
+            <section>Requires Approval</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>nCino UI Memo Layout</layout>
+        <sections>
+            <label><!-- Memo Details --></label>
+            <section>Memo Details</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Memo Number</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -152,6 +152,13 @@
             <translation><!-- Under Review --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Loan Modification Layout</layout>
+        <sections>
+            <label><!-- Detail --></label>
+            <section>Detail</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Loan Modification Auto Number</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

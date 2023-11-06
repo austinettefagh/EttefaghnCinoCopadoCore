@@ -19,6 +19,13 @@
         <label><!-- lookupKey --></label>
         <name>nDESIGN__lookupKey__c</name>
     </fields>
+    <layouts>
+        <layout>Screen View Layout</layout>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- Convert_Multiple_to_Bootstrap3 --></label>
         <name>nDESIGN__Convert_Multiple_to_Bootstrap3</name>

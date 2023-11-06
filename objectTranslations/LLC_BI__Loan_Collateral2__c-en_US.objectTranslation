@@ -277,6 +277,21 @@
         <label><!-- Unique Id --></label>
         <name>LLC_BI__Unique_Id__c</name>
     </fields>
+    <layouts>
+        <layout>Loan Collateral Layout</layout>
+        <sections>
+            <label><!-- Lien Information --></label>
+            <section>Lien Information</section>
+        </sections>
+        <sections>
+            <label><!-- Pledge Details --></label>
+            <section>Pledge Details</section>
+        </sections>
+        <sections>
+            <label><!-- Status --></label>
+            <section>Status</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- There are no relationships related to the collateral who have pledging authority. --></errorMessage>
         <name>LLC_BI__Account_Must_Have_Authority</name>

@@ -216,6 +216,29 @@
         <label><!-- Notes --></label>
         <name>LLC_BI__Notes__c</name>
     </fields>
+    <layouts>
+        <layout>Covenant Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Covenant Auto Number</nameFieldLabel>
     <startsWith>Consonant</startsWith>
+    <workflowTasks>
+        <name>Covenant_Next_Evaluation_Date_in_30_Days_Alert</name>
+        <subject><!-- Covenant - Next Evaluation Date in 30 Days Alert --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>Covenant_Next_Evaluation_Date_in_60_Days_Alert</name>
+        <subject><!-- Covenant - Next Evaluation Date in 60 Days Alert --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>Covenant_Next_Evaluation_Date_in_90_Days_Alert</name>
+        <subject><!-- Covenant - Next Evaluation Date in 90 Days Alert --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>LLC_BI__Review_Covenant_for_Compliance</name>
+        <subject><!-- Review Covenant for Compliance --></subject>
+    </workflowTasks>
 </CustomObjectTranslation>

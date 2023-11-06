@@ -75,4 +75,19 @@
         <label><!-- lookupKey --></label>
         <name>LLC_BI__lookupKey__c</name>
     </fields>
+    <layouts>
+        <layout>Product Type Config Layout</layout>
+        <sections>
+            <label><!-- Covenant Activation --></label>
+            <section>Covenant Activation</section>
+        </sections>
+        <sections>
+            <label><!-- Portal Configuration --></label>
+            <section>Portal Configuration</section>
+        </sections>
+        <sections>
+            <label><!-- Stage Configuration --></label>
+            <section>Stage Configuration</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

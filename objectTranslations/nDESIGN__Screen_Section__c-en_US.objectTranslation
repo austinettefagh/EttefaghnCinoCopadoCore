@@ -141,6 +141,13 @@ Example. Loan Detail DO:10 Loan Detail Narrative DO:11 --></help>
             <translation><!-- LLC_BI__Treasury_Service__c --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Screen Section Layout</layout>
+        <sections>
+            <label><!-- Related Information --></label>
+            <section>Related Information</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- Please select a section resource. --></errorMessage>
         <name>nDESIGN__Mandatory</name>

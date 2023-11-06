@@ -169,4 +169,15 @@
         <label><!-- lookupKey --></label>
         <name>nFORCE__lookupKey__c</name>
     </fields>
+    <layouts>
+        <layout>Widget Layout</layout>
+        <sections>
+            <label><!-- Data --></label>
+            <section>Data</section>
+        </sections>
+        <sections>
+            <label><!-- Scripts and Style Resources --></label>
+            <section>Scripts and Style Resources</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

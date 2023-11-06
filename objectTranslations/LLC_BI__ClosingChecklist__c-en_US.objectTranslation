@@ -250,4 +250,19 @@
             <translation><!-- Medium --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Closing Checklist Layout</layout>
+        <sections>
+            <label><!-- Criteria --></label>
+            <section>Criteria</section>
+        </sections>
+        <sections>
+            <label><!-- Portal --></label>
+            <section>Portal</section>
+        </sections>
+        <sections>
+            <label><!-- Visibility --></label>
+            <section>Visibility</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

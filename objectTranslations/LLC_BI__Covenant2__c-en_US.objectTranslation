@@ -219,6 +219,17 @@
             <translation><!-- Yes --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Covenant2 Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Covenant Compliance Fields --></label>
+            <section>Covenant Compliance Fields</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Covenant Auto Number</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

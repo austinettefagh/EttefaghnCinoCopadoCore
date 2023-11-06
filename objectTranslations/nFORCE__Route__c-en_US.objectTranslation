@@ -127,4 +127,22 @@ nforce__korelatedlist, nforce__kodatagrid, nforce__kogridlist, nforce__korelated
         <label><!-- OA Search Select Button Text --></label>
         <name>nPortal__Search_Select_Text__c</name>
     </fields>
+    <layouts>
+        <layout>Portal Route Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Route Layout</layout>
+        <sections>
+            <label><!-- Navigation --></label>
+            <section>Navigation</section>
+        </sections>
+        <sections>
+            <label><!-- Online Application/Portal --></label>
+            <section>Online Application/Portal</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

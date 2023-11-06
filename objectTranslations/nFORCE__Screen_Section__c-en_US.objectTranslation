@@ -192,6 +192,21 @@
         <label><!-- Portal Subheader Text --></label>
         <name>nPortal__Portal_Subheader_Text__c</name>
     </fields>
+    <layouts>
+        <layout>Screen Section Layout</layout>
+        <sections>
+            <label><!-- Display Options --></label>
+            <section>Display Options</section>
+        </sections>
+        <sections>
+            <label><!-- Display Options (UI) --></label>
+            <section>Display Options (UI)</section>
+        </sections>
+        <sections>
+            <label><!-- Online Application/Portal --></label>
+            <section>Online Application/Portal</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- Please select a section resource. --></errorMessage>
         <name>nFORCE__Mandatory</name>
