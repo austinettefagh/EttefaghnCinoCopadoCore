@@ -95,6 +95,28 @@
         <label><!-- lookupKey --></label>
         <name>LLC_BI__lookupKey__c</name>
     </fields>
+    <layouts>
+        <layout>Admin Underwriting Bundle Layout</layout>
+        <sections>
+            <label><!-- Portfolio Management --></label>
+            <section>Portfolio Management</section>
+        </sections>
+        <sections>
+            <label><!-- Portfolio Management - Periods --></label>
+            <section>Portfolio Management - Periods</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Underwriting Bundle Layout</layout>
+        <sections>
+            <label><!-- Portfolio Management --></label>
+            <section>Portfolio Management</section>
+        </sections>
+        <sections>
+            <label><!-- Portfolio Management - Periods --></label>
+            <section>Portfolio Management - Periods</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- - - DEPRECATED- -  If this bundle is new or a template, the start and end dates must be blank.  If the bundle is not new and not a template, the start and end dates must be set and must not reduce the period range of the statements. --></errorMessage>
         <name>LLC_BI__Date_Range_Must_Be_Valid</name>

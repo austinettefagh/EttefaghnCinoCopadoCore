@@ -37,6 +37,13 @@
         <name>LLC_BI__Underwriting_Summary__c</name>
         <relationshipLabel><!-- Spreads --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>Spread Layout</layout>
+        <sections>
+            <label><!-- Spread Statement --></label>
+            <section>Spread Statement</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- Print --></label>
         <name>LLC_BI__Print</name>

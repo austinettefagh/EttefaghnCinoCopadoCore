@@ -231,5 +231,30 @@
         <label><!-- Your Products Component Field Set --></label>
         <name>nPortal__Your_Products_Component_Field_Set__c</name>
     </fields>
+    <layouts>
+        <layout>Portal Layout</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Portal Product Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Product Layout</layout>
+        <sections>
+            <label><!-- Online Application --></label>
+            <section>Online Application</section>
+        </sections>
+        <sections>
+            <label><!-- Portal Configuration --></label>
+            <section>Portal Configuration</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

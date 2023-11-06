@@ -1365,6 +1365,13 @@
         <label><!-- lookupKey --></label>
         <name>LLC_BI__lookupKey__c</name>
     </fields>
+    <layouts>
+        <layout>Deposit Layout</layout>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- New_Deposit --></label>
         <name>LLC_BI__New_Deposit</name>

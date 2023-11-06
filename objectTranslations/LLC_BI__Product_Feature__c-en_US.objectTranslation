@@ -999,4 +999,35 @@
         <label><!-- lookupKey --></label>
         <name>LLC_BI__lookupKey__c</name>
     </fields>
+    <layouts>
+        <layout>Product Feature Layout</layout>
+        <sections>
+            <label><!-- Binding/Guidance --></label>
+            <section>Binding/Guidance</section>
+        </sections>
+        <sections>
+            <label><!-- CLA --></label>
+            <section>CLA</section>
+        </sections>
+        <sections>
+            <label><!-- Futures --></label>
+            <section>Futures</section>
+        </sections>
+        <sections>
+            <label><!-- Others --></label>
+            <section>Others</section>
+        </sections>
+        <sections>
+            <label><!-- Revolving (Futures) --></label>
+            <section>Revolving (Futures)</section>
+        </sections>
+        <sections>
+            <label><!-- Revolving (LC) --></label>
+            <section>Revolving (LC)</section>
+        </sections>
+        <sections>
+            <label><!-- Structure --></label>
+            <section>Structure</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

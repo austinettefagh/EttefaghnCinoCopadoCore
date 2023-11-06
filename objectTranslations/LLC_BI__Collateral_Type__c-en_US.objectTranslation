@@ -446,6 +446,29 @@
         <name>nPortal__OA_Collateral_Type_Screen__c</name>
         <relationshipLabel><!-- OA Collateral Type Screens --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>Collateral Type Layout</layout>
+        <sections>
+            <label><!-- Complex Collateral --></label>
+            <section>Complex Collateral</section>
+        </sections>
+        <sections>
+            <label><!-- Icon Configuration Setting --></label>
+            <section>Icon Configuration Setting</section>
+        </sections>
+        <sections>
+            <label><!-- Portal Configuration --></label>
+            <section>Portal Configuration</section>
+        </sections>
+        <sections>
+            <label><!-- Status --></label>
+            <section>Status</section>
+        </sections>
+        <sections>
+            <label><!-- Valuation Information --></label>
+            <section>Valuation Information</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- Please enter an advance rate for the collateral type. --></errorMessage>
         <name>LLC_BI__Advance_Rate_should_not_be_null</name>

@@ -24,4 +24,11 @@
         <label><!-- lookupKey --></label>
         <name>LLC_BI__lookupKey__c</name>
     </fields>
+    <layouts>
+        <layout>Data Source Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

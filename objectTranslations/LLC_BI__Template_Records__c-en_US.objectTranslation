@@ -249,6 +249,20 @@
         <label><!-- lookupKey --></label>
         <name>LLC_BI__lookupKey__c</name>
     </fields>
+    <layouts>
+        <layout>Fee Management Page Layout</layout>
+        <sections>
+            <label><!-- Information Part 2 --></label>
+            <section>Information Part 2</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Starting Template Page Layout</layout>
+        <sections>
+            <label><!-- Select a Category to Build Template --></label>
+            <section>Select a Category to Build Template</section>
+        </sections>
+    </layouts>
     <recordTypes>
         <description><!-- Template for Fee Management --></description>
         <label><!-- Fee Management Record Type --></label>

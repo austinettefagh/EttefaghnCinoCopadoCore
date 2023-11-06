@@ -542,6 +542,37 @@
         <label><!-- lookupKey --></label>
         <name>nFORCE__lookupKey__c</name>
     </fields>
+    <layouts>
+        <layout>Data Store</layout>
+        <sections>
+            <label><!-- % --></label>
+            <section>%</section>
+        </sections>
+        <sections>
+            <label><!-- Currency --></label>
+            <section>Currency</section>
+        </sections>
+        <sections>
+            <label><!-- Date Time --></label>
+            <section>Date Time</section>
+        </sections>
+        <sections>
+            <label><!-- Decimal --></label>
+            <section>Decimal</section>
+        </sections>
+        <sections>
+            <label><!-- Groups --></label>
+            <section>Groups</section>
+        </sections>
+        <sections>
+            <label><!-- Number --></label>
+            <section>Number</section>
+        </sections>
+        <sections>
+            <label><!-- Text --></label>
+            <section>Text</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- Push_Data --></label>
         <name>nFORCE__Push_Data</name>

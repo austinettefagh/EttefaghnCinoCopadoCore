@@ -207,6 +207,31 @@
         <label><!-- Online Application Subheader Text --></label>
         <name>nPortal__Online_Application_Subheader_Text__c</name>
     </fields>
+    <layouts>
+        <layout>Portal Layout</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Portal Product Type Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Product Type Layout</layout>
+        <sections>
+            <label><!-- Product State Config --></label>
+            <section>Product State Config</section>
+        </sections>
+        <sections>
+            <label><!-- Related Information --></label>
+            <section>Related Information</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- A maximum of 10 booked config records per product type is currently supported. --></errorMessage>
         <name>LLC_BI__Product_State_Booked_Config_Count</name>

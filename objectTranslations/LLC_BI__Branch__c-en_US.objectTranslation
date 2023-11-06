@@ -265,4 +265,11 @@
         <label><!-- test --></label>
         <name>test__c</name>
     </fields>
+    <layouts>
+        <layout>Branch Layout</layout>
+        <sections>
+            <label><!-- Branch Location --></label>
+            <section>Branch Location</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

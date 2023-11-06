@@ -251,6 +251,13 @@
         <label><!-- Migration ID --></label>
         <name>Migration_ID__c</name>
     </fields>
+    <layouts>
+        <layout>Annual Review Layout</layout>
+        <sections>
+            <label><!-- Risk Rating Worksheet --></label>
+            <section>Risk Rating Worksheet</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Risk Rating Auto Number</nameFieldLabel>
     <startsWith>Consonant</startsWith>
     <validationRules>

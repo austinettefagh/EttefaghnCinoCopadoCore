@@ -377,6 +377,20 @@
         <label><!-- lookupKey --></label>
         <name>LLC_BI__lookupKey__c</name>
     </fields>
+    <layouts>
+        <layout>Admin Spread Statement Type Layout</layout>
+        <sections>
+            <label><!-- Portfolio Management - Statement --></label>
+            <section>Portfolio Management - Statement</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Spread Statement Type Layout</layout>
+        <sections>
+            <label><!-- Portfolio Management - Statement --></label>
+            <section>Portfolio Management - Statement</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- Clone_Template --></label>
         <name>LLC_BI__Clone_Template</name>

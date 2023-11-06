@@ -60,6 +60,13 @@
         <label><!-- Allows Portal Access --></label>
         <name>nPortal__Allows_Portal_Access__c</name>
     </fields>
+    <layouts>
+        <layout>Portal Connection Role Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- A role cannot have a reciprocal role specified if it is self reciprocating. --></errorMessage>
         <name>LLC_BI__Reciprocal_Role</name>

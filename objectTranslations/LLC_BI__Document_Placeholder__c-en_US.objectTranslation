@@ -442,4 +442,19 @@
         <label><!-- version --></label>
         <name>NDOC__version__c</name>
     </fields>
+    <layouts>
+        <layout>Document Placeholder Layout</layout>
+        <sections>
+            <label><!-- Customer Portal Information --></label>
+            <section>Customer Portal Information</section>
+        </sections>
+        <sections>
+            <label><!-- Document Status Information --></label>
+            <section>Document Status Information</section>
+        </sections>
+        <sections>
+            <label><!-- Permissions --></label>
+            <section>Permissions</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

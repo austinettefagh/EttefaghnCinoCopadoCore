@@ -32,4 +32,11 @@
         <label><!-- Is Portal Enabled --></label>
         <name>nPortal__Is_Portal_Enabled__c</name>
     </fields>
+    <layouts>
+        <layout>Funding Method Type Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

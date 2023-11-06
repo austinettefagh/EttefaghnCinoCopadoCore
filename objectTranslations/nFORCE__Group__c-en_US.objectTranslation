@@ -111,6 +111,24 @@ E.g. If the requested app is &apos;loan.change-product&apos;, then the group por
         <label><!-- Is Portal Enabled --></label>
         <name>nPortal__Is_Portal_Enabled__c</name>
     </fields>
+    <layouts>
+        <layout>Group Layout</layout>
+        <sections>
+            <label><!-- Portal Config --></label>
+            <section>Portal Config</section>
+        </sections>
+        <sections>
+            <label><!-- Questionnaire Config --></label>
+            <section>Questionnaire Config</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Portal Group Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
     <webLinks>
         <label><!-- Deep_Clone_Group --></label>

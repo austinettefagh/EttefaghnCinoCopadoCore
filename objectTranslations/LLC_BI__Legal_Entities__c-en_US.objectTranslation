@@ -488,6 +488,35 @@
         <label><!-- Migration ID --></label>
         <name>Migration_ID__c</name>
     </fields>
+    <layouts>
+        <layout>Deposit Entity Layout</layout>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Legal Entity Layout</layout>
+        <sections>
+            <label><!-- Contingent Details --></label>
+            <section>Contingent Details</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Portal Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Entity Auto Number</nameFieldLabel>
     <recordTypes>
         <label><!-- Deposit Involvement --></label>

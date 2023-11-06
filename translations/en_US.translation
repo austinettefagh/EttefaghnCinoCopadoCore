@@ -2,8 +2,23 @@
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <customApplications>
         <description xsi:nil="true"/>
+        <label><!-- nCino - Lifecycle --></label>
+        <name>Bankr_Base_Installation</name>
+    </customApplications>
+    <customApplications>
+        <description xsi:nil="true"/>
+        <label><!-- nCino --></label>
+        <name>Bankr_Base_Installation_Lightning</name>
+    </customApplications>
+    <customApplications>
+        <description xsi:nil="true"/>
         <label><!-- nCino LOS --></label>
         <name>nCino_LOS</name>
+    </customApplications>
+    <customApplications>
+        <description xsi:nil="true"/>
+        <label><!-- nCino User Interface --></label>
+        <name>nCino_User_Interface</name>
     </customApplications>
     <customLabels>
         <label><!-- Account --></label>
@@ -32284,6 +32299,10 @@
         <name>niq__Value_Field_Title</name>
     </customLabels>
     <customPageWebLinks>
+        <label><!-- My Teams --></label>
+        <name>My_Teams</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
         <label><!-- NAICS --></label>
         <name>NAICS</name>
     </customPageWebLinks>
@@ -32292,7 +32311,721 @@
         <name>nCino_Website</name>
     </customPageWebLinks>
     <customTabs>
+        <label><!-- Account Covenant Bulk Associate --></label>
+        <name>Account_Covenant_Bulk_Associate</name>
+    </customTabs>
+    <customTabs>
         <label><!-- DM Admin --></label>
         <name>DM_Admin</name>
     </customTabs>
+    <customTabs>
+        <label><!-- Forms Manager --></label>
+        <name>FormManager</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Manage Rates --></label>
+        <name>ManageRates</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- nCino Administration --></label>
+        <name>nCino_Administration</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows/>
+        <fullName>CLA_Draw_Auto_Submit_for_Approval</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>CRA_Reportable_Invocable</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Commercial_LoanAutoDecision</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Employee_Loan_Reg_O_Invocable</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>HMDA_Questionnaire_Rendering_Invocable</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>HVCRE_Questionnaire_Rendering_Invocable</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>InspectionPlaceholder</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Integration_LoanAutoDecision</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>LLC_BI__IALAutoDecision</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>LLC_BI__ILProductTypeSelection</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>LLC_BI__Update_Deposit_Is_Booked</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Master_LoanAutoDecision</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Master_Questionnaire_PB</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>REG_O_Questionnaire_Rendering_Invocable</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>REG_W_Questionnaire_Rendering_Invocable</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Relationship_Evaluation_LoanAutoDecision</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Retail_LoanAutoDecision</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Valuation_Auto_Submit</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Relationship --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Case --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Case --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Contact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Contact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Event --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Event --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Group --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Lead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Note --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Note --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Opportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Opportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send Email --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- Account Documents --></description>
+        <label><!-- Account Documents --></label>
+        <name>Account_Documents</name>
+        <sections>
+            <label><!-- AccountDocuments --></label>
+            <name>AccountDocuments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Entities with Contingent Liabilties --></description>
+        <label><!-- Accounts with Entities with Contingent Liabilties --></label>
+        <name>Accounts_with_Entities_with_Contingent_Liabilties</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Contingent Liabilties --></label>
+            <name>Contingent Liabilties</name>
+        </sections>
+        <sections>
+            <label><!-- Entities --></label>
+            <name>Entities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Relationships with Ownership and Collateral --></description>
+        <label><!-- Relationships with Ownership and Collateral --></label>
+        <name>Accounts_with_Ownership_and_Collateral</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Collateral --></label>
+            <name>Collateral</name>
+        </sections>
+        <sections>
+            <label><!-- Collateral Ownership --></label>
+            <name>Collateral Ownership</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Application Loan Documents --></description>
+        <label><!-- Application Loan Documents --></label>
+        <name>Application_Loan_Documents</name>
+        <sections>
+            <label><!-- Applications --></label>
+            <name>Applications</name>
+        </sections>
+        <sections>
+            <label><!-- LLC_LoanDocument --></label>
+            <name>LLC_LoanDocument</name>
+        </sections>
+        <sections>
+            <label><!-- Loans --></label>
+            <name>Loans</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Application Loans --></description>
+        <label><!-- Application Loans --></label>
+        <name>Application_Loans</name>
+        <sections>
+            <label><!-- Applications --></label>
+            <name>Applications</name>
+        </sections>
+        <sections>
+            <label><!-- Loans --></label>
+            <name>Loans</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Applications with Loans --></description>
+        <label><!-- Applications with Loans --></label>
+        <name>Applications_with_Loans</name>
+        <sections>
+            <label><!-- Applications --></label>
+            <name>Applications</name>
+        </sections>
+        <sections>
+            <label><!-- Loans --></label>
+            <name>Loans</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Approval Reports --></description>
+        <label><!-- Approval Reports --></label>
+        <name>Approval_Reports</name>
+        <sections>
+            <label><!-- Process Instance --></label>
+            <name>Process Instance</name>
+        </sections>
+        <sections>
+            <label><!-- Process Instance Node --></label>
+            <name>Process Instance Node</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- -D CRA HMDA Loan Fields --></description>
+        <label><!-- -D CRA HMDA Loan Fields --></label>
+        <name>CRA_HMDA_Loan_Fields</name>
+        <sections>
+            <label><!-- Entity Involvements --></label>
+            <name>Entity Involvements</name>
+        </sections>
+        <sections>
+            <label><!-- Loans --></label>
+            <name>Loans</name>
+        </sections>
+        <sections>
+            <label><!-- Relationship --></label>
+            <name>Relationship</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Closing Checklist --></description>
+        <label><!-- Closing Checklist --></label>
+        <name>Closing_Checklist</name>
+        <sections>
+            <label><!-- Closing Checklists --></label>
+            <name>Closing Checklists</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Covenant (Winter 2015) --></description>
+        <label><!-- Covenant (Winter 2015) --></label>
+        <name>Covenant_Winter_2015</name>
+        <sections>
+            <label><!-- Covenants --></label>
+            <name>Covenants</name>
+        </sections>
+        <sections>
+            <label><!-- Relationships --></label>
+            <name>Relationships</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Data Store Seed Report --></description>
+        <label><!-- Data Store Seed Report --></label>
+        <name>Data_Store_Seed_Report</name>
+        <sections>
+            <label><!-- Data Stores --></label>
+            <name>Data Stores</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Fee Loan Aggregate --></description>
+        <label><!-- Fee Loan Aggregate --></label>
+        <name>Fee_Loan_Aggre</name>
+        <sections>
+            <label><!-- Fee Loan Aggregate --></label>
+            <name>Fee Loan Aggregate</name>
+        </sections>
+        <sections>
+            <label><!-- Loans --></label>
+            <name>Loans</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Loan Covenants with Loans and Covenants --></description>
+        <label><!-- Loan Covenants with Loans and Covenants --></label>
+        <name>Loan_Covenants_with_Loans_and_Covenants</name>
+        <sections>
+            <label><!-- Covenants --></label>
+            <name>Covenants</name>
+        </sections>
+        <sections>
+            <label><!-- Loan Covenants --></label>
+            <name>Loan Covenants</name>
+        </sections>
+        <sections>
+            <label><!-- Loans --></label>
+            <name>Loans</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Loan Documents --></description>
+        <label><!-- Loan Documents --></label>
+        <name>Loan_Documents</name>
+        <sections>
+            <label><!-- LLC_LoanDocument --></label>
+            <name>LLC_LoanDocument</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Loan_EI_EC --></description>
+        <label><!-- Loan_EI_EC --></label>
+        <name>Loan_EI_EC</name>
+        <sections>
+            <label><!-- Entity Compliances --></label>
+            <name>Entity Compliances</name>
+        </sections>
+        <sections>
+            <label><!-- Entity Involvements --></label>
+            <name>Entity Involvements</name>
+        </sections>
+        <sections>
+            <label><!-- Loans --></label>
+            <name>Loans</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Loan_EI_EC_2 --></description>
+        <label><!-- Loan_EI_EC_2 --></label>
+        <name>Loan_EI_EC_2</name>
+        <sections>
+            <label><!-- Entity Compliances --></label>
+            <name>Entity Compliances</name>
+        </sections>
+        <sections>
+            <label><!-- Entity Involvements --></label>
+            <name>Entity Involvements</name>
+        </sections>
+        <sections>
+            <label><!-- Loans --></label>
+            <name>Loans</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Loan Entity involvement relationship and contact --></description>
+        <label><!-- Loan Entity involvement relationship and contact --></label>
+        <name>Loan_Entity_involvement_relationship_and_contact</name>
+        <sections>
+            <label><!-- Entity Involvements --></label>
+            <name>Entity Involvements</name>
+        </sections>
+        <sections>
+            <label><!-- Loans --></label>
+            <name>Loans</name>
+        </sections>
+        <sections>
+            <label><!-- Relationship --></label>
+            <name>Relationship</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Loan_LC --></description>
+        <label><!-- Loan_LC --></label>
+        <name>Loan_LC</name>
+        <sections>
+            <label><!-- Loan Compliances --></label>
+            <name>Loan Compliances</name>
+        </sections>
+        <sections>
+            <label><!-- Loans --></label>
+            <name>Loans</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Loans --></description>
+        <label><!-- Loans --></label>
+        <name>Loans</name>
+        <sections>
+            <label><!-- Loans --></label>
+            <name>Loans</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Loans with Collateral with Collateral History --></description>
+        <label><!-- Loans with Collateral with Collateral History --></label>
+        <name>Loans_with_Collateral_with_Collateral_History</name>
+        <sections>
+            <label><!-- Collateral --></label>
+            <name>Collateral</name>
+        </sections>
+        <sections>
+            <label><!-- Collateral History --></label>
+            <name>Collateral History</name>
+        </sections>
+        <sections>
+            <label><!-- Loans --></label>
+            <name>Loans</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Loans with Covenants with Covenant Compliance --></description>
+        <label><!-- Loans with Covenants with Covenant Compliance --></label>
+        <name>Loans_with_Covenants_with_Covenant_Compliance</name>
+        <sections>
+            <label><!-- Covenant Compliance --></label>
+            <name>Covenant Compliance</name>
+        </sections>
+        <sections>
+            <label><!-- Covenants --></label>
+            <name>Covenants</name>
+        </sections>
+        <sections>
+            <label><!-- Loans --></label>
+            <name>Loans</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Loans with Historical Trending --></description>
+        <label><!-- Loans with Historical Trending --></label>
+        <name>Loans_with_Historical_Trending</name>
+        <sections>
+            <label><!-- Loan (Historical) --></label>
+            <name>Loan (Historical)</name>
+        </sections>
+        <sections>
+            <label><!-- Loans --></label>
+            <name>Loans</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Loans with Loan Covenants --></description>
+        <label><!-- Loans with Loan Covenants --></label>
+        <name>Loans_with_Loan_Covenants</name>
+        <sections>
+            <label><!-- Covenants --></label>
+            <name>Covenants</name>
+        </sections>
+        <sections>
+            <label><!-- Loans --></label>
+            <name>Loans</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Loans with Opportunity History --></description>
+        <label><!-- Loans with Opportunity History --></label>
+        <name>Loans_with_Opportunity_History</name>
+        <sections>
+            <label><!-- Loans --></label>
+            <name>Loans</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunity History --></label>
+            <name>Opportunity History</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Loans with Pledged and Collateral --></description>
+        <label><!-- Loans with Pledged and Collateral --></label>
+        <name>Loans_with_Pledged_and_Collateral</name>
+        <sections>
+            <label><!-- Collateral --></label>
+            <name>Collateral</name>
+        </sections>
+        <sections>
+            <label><!-- Collateral Pledged --></label>
+            <name>Collateral Pledged</name>
+        </sections>
+        <sections>
+            <label><!-- Collateral Type --></label>
+            <name>Collateral Type</name>
+        </sections>
+        <sections>
+            <label><!-- Loans --></label>
+            <name>Loans</name>
+        </sections>
+        <sections>
+            <label><!-- Product --></label>
+            <name>Product</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Opportunity Stage Duration --></description>
+        <label><!-- Opportunity Stage Duration --></label>
+        <name>Opportunity_Stage_Duration</name>
+        <sections>
+            <label><!-- Opportunity History --></label>
+            <name>Opportunity History</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Product Types with and without PSC --></description>
+        <label><!-- Product Types with and without PSC --></label>
+        <name>Product_Types_with_and_without_PSC</name>
+        <sections>
+            <label><!-- Product State Config --></label>
+            <name>Product State Config</name>
+        </sections>
+        <sections>
+            <label><!-- Product Types --></label>
+            <name>Product Types</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Products with and without Product Features --></description>
+        <label><!-- Products with and without Product Features --></label>
+        <name>Products_with_and_without_Product_Features</name>
+        <sections>
+            <label><!-- Products --></label>
+            <name>Products</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Spread Statement Templates with Spread Statement Period with Spread Statement Period Totals --></description>
+        <label><!-- Spread Statement Templates with Spread Statement Period with Spread Statement Period Totals --></label>
+        <name>Spread_Statement_Templates_with_Spread_Statement_Period_with_Spread_Statement</name>
+        <sections>
+            <label><!-- Spread Statement Period --></label>
+            <name>Spread Statement Period</name>
+        </sections>
+        <sections>
+            <label><!-- Spread Statement Period Totals --></label>
+            <name>Spread Statement Period Totals</name>
+        </sections>
+        <sections>
+            <label><!-- Spread Statement Templates --></label>
+            <name>Spread Statement Templates</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Spread Statement Templates with Spread Statement Records with Spread Statement Record Groups --></description>
+        <label><!-- Spread Statement Templates with Spread Statement Records with Spread Statement Record Groups --></label>
+        <name>Spread_Statement_Templates_with_Spread_Statement_Records_with_Spread_Statement</name>
+        <sections>
+            <label><!-- Spread Statement Record Groups --></label>
+            <name>Spread Statement Record Groups</name>
+        </sections>
+        <sections>
+            <label><!-- Spread Statement Records --></label>
+            <name>Spread Statement Records</name>
+        </sections>
+        <sections>
+            <label><!-- Spread Statement Templates --></label>
+            <name>Spread Statement Templates</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Spread Statement Templates with Spread Statement Records with Spread Statement Record Values --></description>
+        <label><!-- Spread Statement Templates with Spread Statement Records with Spread Statement Record Values --></label>
+        <name>Spread_Statement_Templates_with_Spread_Statement_Records_with_Spread_Statement1</name>
+        <sections>
+            <label><!-- Spread Statement Record Values --></label>
+            <name>Spread Statement Record Values</name>
+        </sections>
+        <sections>
+            <label><!-- Spread Statement Records --></label>
+            <name>Spread Statement Records</name>
+        </sections>
+        <sections>
+            <label><!-- Spread Statement Templates --></label>
+            <name>Spread Statement Templates</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Spreads Bundle Export --></description>
+        <label><!-- Spreads Bundle Export --></label>
+        <name>Spreads_Bundle_Export</name>
+        <sections>
+            <label><!-- Spread Statement Record Values --></label>
+            <name>Spread Statement Record Values</name>
+        </sections>
+        <sections>
+            <label><!-- Spread Statement Records --></label>
+            <name>Spread Statement Records</name>
+        </sections>
+        <sections>
+            <label><!-- Spread Statement Templates --></label>
+            <name>Spread Statement Templates</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Spreads Configuration Export --></description>
+        <label><!-- Spreads Configuration Export --></label>
+        <name>Spreads_Configuration_Export</name>
+        <sections>
+            <label><!-- Spread Record Classifications --></label>
+            <name>Spread Record Classifications</name>
+        </sections>
+        <sections>
+            <label><!-- Spread Statement Records --></label>
+            <name>Spread Statement Records</name>
+        </sections>
+        <sections>
+            <label><!-- Spread Statement Templates --></label>
+            <name>Spread Statement Templates</name>
+        </sections>
+        <sections>
+            <label><!-- Spreads Record Classification --></label>
+            <name>Spreads Record Classification</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Third Party Reports --></description>
+        <label><!-- Third Party Reports --></label>
+        <name>Third_Party_Reports</name>
+        <sections>
+            <label><!-- Third Party Reports --></label>
+            <name>Third Party Reports</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- UI Routes &amp; Route Groups --></description>
+        <label><!-- UI Routes &amp; Route Groups --></label>
+        <name>UI_Routes</name>
+        <sections>
+            <label><!-- Join Field --></label>
+            <name>Join Field</name>
+        </sections>
+        <sections>
+            <label><!-- Route Groups --></label>
+            <name>Route Groups</name>
+        </sections>
+        <sections>
+            <label><!-- Routes --></label>
+            <name>Routes</name>
+        </sections>
+        <sections>
+            <label><!-- UI --></label>
+            <name>UI</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- UI Screens/Screen Sections/Section Configs --></description>
+        <label><!-- UI Screens/Screen Sections/Section Configs --></label>
+        <name>UI_Screens_Screen_Sections_Section_Configs</name>
+        <sections>
+            <label><!-- Join Field --></label>
+            <name>Join Field</name>
+        </sections>
+        <sections>
+            <label><!-- Screen Sections --></label>
+            <name>Screen Sections</name>
+        </sections>
+        <sections>
+            <label><!-- Screens --></label>
+            <name>Screens</name>
+        </sections>
+        <sections>
+            <label><!-- Section Configurations --></label>
+            <name>Section Configurations</name>
+        </sections>
+        <sections>
+            <label><!-- UI --></label>
+            <name>UI</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Validation - Users --></description>
+        <label><!-- Validation - Users --></label>
+        <name>Validation_Users</name>
+        <sections>
+            <label><!-- Users --></label>
+            <name>Users</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Screen Flows --></description>
+        <label><!-- Screen Flows --></label>
+        <name>screen_flows_prebuilt_crt</name>
+        <sections>
+            <label><!-- Flow Interview Log Entries --></label>
+            <name>Flow Interview Log Entries</name>
+        </sections>
+        <sections>
+            <label><!-- Flow Interview Logs --></label>
+            <name>Flow Interview Logs</name>
+        </sections>
+    </reportTypes>
 </Translations>

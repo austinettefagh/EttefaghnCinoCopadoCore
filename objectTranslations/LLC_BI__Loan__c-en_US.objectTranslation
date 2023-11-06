@@ -3293,6 +3293,87 @@ Sum of Interest Only Months + Principal &amp; Interest Months --></help>
         <label><!-- Today&apos;s Date --></label>
         <name>cm_Today_s_Date__c</name>
     </fields>
+    <layouts>
+        <layout>Classic Layout</layout>
+        <sections>
+            <label><!-- Attorney Information --></label>
+            <section>Attorney Information</section>
+        </sections>
+        <sections>
+            <label><!-- Balance Detail --></label>
+            <section>Balance Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Booked Loan Detail --></label>
+            <section>Booked Loan Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Collateral Coverage --></label>
+            <section>Collateral Coverage</section>
+        </sections>
+        <sections>
+            <label><!-- Compliance Information --></label>
+            <section>Compliance Information</section>
+        </sections>
+        <sections>
+            <label><!-- Construction --></label>
+            <section>Construction</section>
+        </sections>
+        <sections>
+            <label><!-- Document Manager --></label>
+            <section>Document Manager</section>
+        </sections>
+        <sections>
+            <label><!-- Key Dates --></label>
+            <section>Key Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Loan Covenants --></label>
+            <section>Loan Covenants</section>
+        </sections>
+        <sections>
+            <label><!-- Loan Stage History --></label>
+            <section>Loan Stage History</section>
+        </sections>
+        <sections>
+            <label><!-- Post Closing Review --></label>
+            <section>Post Closing Review</section>
+        </sections>
+        <sections>
+            <label><!-- Rate &amp; Term --></label>
+            <section>Rate &amp; Term</section>
+        </sections>
+        <sections>
+            <label><!-- Referral &amp; Lead Information --></label>
+            <section>Referral &amp; Lead Information</section>
+        </sections>
+        <sections>
+            <label><!-- Renewals --></label>
+            <section>Renewals</section>
+        </sections>
+        <sections>
+            <label><!-- Secondary Market Detail --></label>
+            <section>Secondary Market Detail</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Portal Loan Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>nCino UI Hybrid</layout>
+        <sections>
+            <label><!-- nCino UI --></label>
+            <section>nCino UI</section>
+        </sections>
+    </layouts>
     <recordTypes>
         <description><!-- This Record Type will Apply to Commercial Loans --></description>
         <label><!-- Commercial Loan Record Type --></label>

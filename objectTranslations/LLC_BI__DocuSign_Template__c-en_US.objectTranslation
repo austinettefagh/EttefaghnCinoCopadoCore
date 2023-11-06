@@ -48,4 +48,11 @@
         <label><!-- Template Id --></label>
         <name>LLC_BI__Template_Id__c</name>
     </fields>
+    <layouts>
+        <layout>DocuSign Template Layout</layout>
+        <sections>
+            <label><!-- Data Mapping --></label>
+            <section>Data Mapping</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

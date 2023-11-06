@@ -6,7 +6,6 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>nCino - Lifecycle</label>
-    <logo>LLC_BI__nCino_Document_Templates/nCino_PSO_Logo.gif</logo>
     <tabs>standard-Lead</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>

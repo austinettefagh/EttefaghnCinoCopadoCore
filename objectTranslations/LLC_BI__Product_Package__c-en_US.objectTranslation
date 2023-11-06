@@ -399,6 +399,52 @@
             <translation><!-- Yes --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Product Package Layout</layout>
+        <sections>
+            <label><!-- Collateral --></label>
+            <section>Collateral</section>
+        </sections>
+        <sections>
+            <label><!-- Covenants --></label>
+            <section>Covenants</section>
+        </sections>
+        <sections>
+            <label><!-- Exposure --></label>
+            <section>Exposure</section>
+        </sections>
+        <sections>
+            <label><!-- Facilities --></label>
+            <section>Facilities</section>
+        </sections>
+        <sections>
+            <label><!-- Fees --></label>
+            <section>Fees</section>
+        </sections>
+        <sections>
+            <label><!-- Legal Entities --></label>
+            <section>Legal Entities</section>
+        </sections>
+        <sections>
+            <label><!-- Loan Facilities Summary --></label>
+            <section>Loan Facilities Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Policy Exceptions --></label>
+            <section>Policy Exceptions</section>
+        </sections>
+        <sections>
+            <label><!-- Team Members --></label>
+            <section>Team Members</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>nCino UI Hybrid</layout>
+        <sections>
+            <label><!-- Product Package Details --></label>
+            <section>Product Package Details</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- Credit_Memo --></label>
         <name>Credit_Memo</name>
@@ -419,4 +465,8 @@
         <label><!-- renew_loan --></label>
         <name>LLC_BI__renew_loan</name>
     </webLinks>
+    <workflowTasks>
+        <name>LLC_BI__Product_Package_Next_Review_Task</name>
+        <subject><!-- Product Package Review --></subject>
+    </workflowTasks>
 </CustomObjectTranslation>

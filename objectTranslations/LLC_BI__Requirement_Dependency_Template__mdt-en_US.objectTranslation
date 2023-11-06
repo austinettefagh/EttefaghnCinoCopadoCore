@@ -33,4 +33,11 @@
         <name>LLC_BI__Dependent_Requirement__c</name>
         <relationshipLabel><!-- Controlling Requirements --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>Requirement Dependency Template Layout</layout>
+        <sections>
+            <label><!-- Requirement Dependency Definition --></label>
+            <section>Requirement Dependency Definition</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

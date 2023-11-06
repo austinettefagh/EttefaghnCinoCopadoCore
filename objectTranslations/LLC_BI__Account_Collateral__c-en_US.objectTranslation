@@ -133,6 +133,13 @@
         <label><!-- Start Date --></label>
         <name>LLC_BI__Start_Date__c</name>
     </fields>
+    <layouts>
+        <layout>Account Collateral Layout</layout>
+        <sections>
+            <label><!-- Status --></label>
+            <section>Status</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Account Collateral Auto Number</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

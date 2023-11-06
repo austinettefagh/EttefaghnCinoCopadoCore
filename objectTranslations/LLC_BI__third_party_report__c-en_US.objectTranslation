@@ -406,4 +406,15 @@
             <translation><!-- Market Value At Stabilization --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Third Party Report Layout</layout>
+        <sections>
+            <label><!-- Appraisal Detail --></label>
+            <section>Appraisal Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Related Information --></label>
+            <section>Related Information</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

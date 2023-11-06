@@ -89,4 +89,18 @@
             <translation><!-- Withdrawn --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Application Layout</layout>
+        <sections>
+            <label><!-- Online Application Information --></label>
+            <section>Online Application Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Portal Application Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

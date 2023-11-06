@@ -20,12 +20,12 @@
                 <enableHover>false</enableHover>
                 <expandOthers>false</expandOthers>
                 <groupingSortProperties/>
-                <report>prm_channel_sales_reports_folder/prm_open_opportunity_by_stage</report>
+                <report>prm_channel_sales_reports_folder/prm_open_opportunity_by_partner</report>
                 <showPercentage>false</showPercentage>
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>false</showValues>
                 <sortBy>RowLabelAscending</sortBy>
-                <title>Open Opportunities by Stage</title>
+                <title>Open Opportunities by Partner</title>
                 <useReportChart>true</useReportChart>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
@@ -43,12 +43,12 @@
                 <enableHover>false</enableHover>
                 <expandOthers>false</expandOthers>
                 <groupingSortProperties/>
-                <report>prm_channel_sales_reports_folder/prm_open_opportunity_by_partner</report>
+                <report>prm_channel_sales_reports_folder/prm_open_opportunity_by_stage</report>
                 <showPercentage>false</showPercentage>
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>false</showValues>
                 <sortBy>RowLabelAscending</sortBy>
-                <title>Open Opportunities by Partner</title>
+                <title>Open Opportunities by Stage</title>
                 <useReportChart>true</useReportChart>
             </dashboardComponent>
             <rowIndex>0</rowIndex>

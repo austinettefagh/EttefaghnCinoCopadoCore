@@ -88,4 +88,15 @@
         <label><!-- Calculate with Preferred Rate --></label>
         <name>LLC_BI__Use_Preferred_Rate__c</name>
     </fields>
+    <layouts>
+        <layout>Loan Detail</layout>
+        <sections>
+            <label><!-- Discounts --></label>
+            <section>Discounts</section>
+        </sections>
+        <sections>
+            <label><!-- Loan Detail Information --></label>
+            <section>Loan Detail Information</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

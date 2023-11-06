@@ -5,7 +5,6 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>nCino User Interface</label>
-    <logo>nFORCE__nCino_User_Interface_Static/nFORCE__nCino_Logo.png</logo>
     <tabs>nFORCE__Route__c</tabs>
     <tabs>nFORCE__Group__c</tabs>
     <tabs>nFORCE__Route_Group__c</tabs>

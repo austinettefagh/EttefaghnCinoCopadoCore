@@ -94,6 +94,17 @@
         <label><!-- lookupKey --></label>
         <name>LLC_BI__lookupKey__c</name>
     </fields>
+    <layouts>
+        <layout>Risk Grading Criteria Layout</layout>
+        <sections>
+            <label><!-- Qualitative Value --></label>
+            <section>Qualitative Value</section>
+        </sections>
+        <sections>
+            <label><!-- Quantitative Values --></label>
+            <section>Quantitative Values</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- The high value needs to be larger than the low value. --></errorMessage>
         <name>LLC_BI__higher_than_low</name>

@@ -288,6 +288,13 @@
         <label><!-- Web Source --></label>
         <name>Web_Source__c</name>
     </fields>
+    <layouts>
+        <layout>Lead Layout</layout>
+        <sections>
+            <label><!-- Product Selection --></label>
+            <section>Product Selection</section>
+        </sections>
+    </layouts>
     <recordTypes>
         <description><!-- Select for a New Loan Opportunity --></description>
         <label><!-- Loan --></label>
